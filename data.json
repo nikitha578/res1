@@ -1,0 +1,47 @@
+{
+  "left":{
+    "photo":"girl.jpg",
+    "name":"nikitha",
+    "email":"nikitha.p.knl@gmail.com",
+    "phone":"9988776655"
+  },
+  "education":[
+    {
+      "course":"B.tech(computer science and enginnering)",
+      "college":[
+        "Ravindra college of engineering for women",
+        "2015-2019",
+        "70%"
+      ]
+    },
+    {
+      "course":"intermediate(mpc)",
+      "college":["narayana jr college",
+      "2013-2015",
+      "88%"
+    ]
+    },
+    {
+      "course":"ssc",
+      "college":["narayana etechno school",
+        "2010-2012",
+      "90%"
+    ]
+    }
+  ],
+  "skills":[
+    {
+      "name":"operating system",
+      "value":"windows,linux"
+    },
+    {
+     "name":"programming language",
+     "value":"c,c++,java"
+   },
+   {
+     "name":"web development",
+     "value":"HTML,PHP,.net"
+   }
+  ]
+
+}

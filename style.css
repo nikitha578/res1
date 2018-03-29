@@ -1,0 +1,122 @@
+
+table,td,tr {
+  border:2px solid #000;
+  border-collapse: collapse;
+}
+/*#tab{
+border:2px solid #000;
+}*/
+
+.main{
+  /* width:100%; */
+   background-color: #999;
+  /* flex box syntax */
+  display: flex;
+   /* flex-direction: row; */
+flex-wrap: wrap;
+}
+.left{
+  /* width:20%; */
+  text-align: justify;
+  background-color:	#FFB6C1 ;
+  border: 5px solid #000;
+  margin:5px
+  /* background-image: url(); */
+  flex:1;
+  padding:30px;
+}
+.right{
+  /* width:90%; */
+  text-align: justify;
+  background-color: #FFE4E1;
+  border: 5px solid #000;
+  margin:5px;
+  padding: 6px;
+flex:2;
+}
+#name{
+  color:green;
+}
+.left img{
+  border-radius: 50px;
+  border: 4px solid #666;
+  width:100px;
+   height:100px;
+}
+/* media queries(1024,1280,768,480)
+1280-1024:Desktop
+1024-768:Tablet(LandScape)
+768-480:Tablet
+480:mobile landscape (or) smaller device
+ */
+@media only screen and (min-width:1024px) and (max-width:1280px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    /* width:100%; */
+    flex-wrap: wrap;
+
+  }
+  .left{
+    /* width:25%; */
+    background-color: #98FB98;
+  }
+.right{
+  /* width:75%; */
+  background-color: #AFEEEE;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    /* width:100%; */
+    flex-wrap: wrap;
+
+  }
+  .left{
+    /* width:25%; */
+    background-color: #DB7093;
+  }
+  .right{
+  /* width:75%; */
+  background-color: #FFEFD5;
+  }
+
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    /* width:100%; */
+    flex-wrap: wrap;
+
+  }
+  .left{
+    /* width:25%; */
+    background-color: #FFC0CB;
+  }
+  .right{
+  /* width:75%; */
+  background-color: #DDA0DD;
+  }
+
+}
+@media only screen and (max-width:480px){
+  .main{
+    display:flex;
+    flex-direction:row;
+    /* width:100%; */
+    flex-wrap: wrap;
+
+  }
+  .left{
+    /* width:25%; */
+    background-color: #DDA0DD;
+  }
+  .right{
+  /* width:75%; */
+  background-color:#B0E0E6;
+  }
+
+}
